@@ -1,10 +1,310 @@
 <!DOCTYPE html>
-<html>
-<head><title>Felix B Tharakan - Home</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix B Tharakan - Cybersecurity Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
 <body>
-<h1>Felix B Tharakan</h1>
-<p>Cybersecurity Enthusiast | SOC Trainee at TechensGlobal</p>
-<p>SIEM | Threat Detection | Pen Testing | SOC Operations</p>
-<a href="projects.html">Projects</a> | <a href="resume.html">Resume</a> | <a href="contact.html">Contact</a>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Felix B Tharakan</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Felix B Tharakan</span>
+                    </h1>
+                    <p class="hero-subtitle">Cybersecurity Enthusiast | SOC Trainee at TechensGlobal</p>
+                    <p class="hero-description">Specializing in SIEM, Threat Detection, Penetration Testing & SOC Operations</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="FELIX-B-THARAKAN-FlowCV-Resume-20250709 (1).pdf" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="security-animation">
+                        <div class="shield-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="orbit-ring ring-1"></div>
+                        <div class="orbit-ring ring-2"></div>
+                        <div class="orbit-ring ring-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am Felix B Tharakan, a cybersecurity professional from Kerala with hands-on experience as a SOC Trainee at TechensGlobal. I specialize in SIEM tools, incident response, threat analysis, and network security.</p>
+                        <p>I enjoy working with tools like ELK, Splunk, Wazuh, and Metasploit while constantly learning and adapting in the fast-paced cybersecurity field. My passion lies in protecting digital assets and staying ahead of emerging threats.</p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Certifications</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">1+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Internship Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>SOC Trainee</h3>
+                                <span class="company">TechensGlobal</span>
+                                <span class="duration">2024 - Present</span>
+                            </div>
+                            <div class="timeline-description">
+                                <p>Currently working as a SOC Trainee, gaining hands-on experience in:</p>
+                                <ul>
+                                    <li>Real-time security monitoring and incident response</li>
+                                    <li>SIEM tool configuration and log analysis</li>
+                                    <li>Threat hunting and vulnerability assessment</li>
+                                    <li>Security alert triage and escalation procedures</li>
+                                    <li>Compliance monitoring and reporting</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">ELK Stack</span>
+                                    <span class="tech-tag">Splunk</span>
+                                    <span class="tech-tag">Wazuh</span>
+                                    <span class="tech-tag">Microsoft Sentinel</span>
+                                    <span class="tech-tag">IBM QRadar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-project="meta-recon">
+                        <div class="project-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Meta Recon Tool</h3>
+                        <p>Linux-based automated reconnaissance tool integrating multiple security utilities</p>
+                        <div class="project-tags">
+                            <span class="tag">Linux</span>
+                            <span class="tag">Nmap</span>
+                            <span class="tag">Hydra</span>
+                        </div>
+                        <div class="project-date">October 2024</div>
+                    </div>
+
+                    <div class="project-card" data-project="wazuh-siem">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Wazuh SIEM Deployment</h3>
+                        <p>Enterprise-grade SIEM implementation for comprehensive security monitoring</p>
+                        <div class="project-tags">
+                            <span class="tag">Wazuh</span>
+                            <span class="tag">SIEM</span>
+                            <span class="tag">Monitoring</span>
+                        </div>
+                        <div class="project-date">December 2024</div>
+                    </div>
+
+                    <div class="project-card" data-project="ai-recipe">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI Recipe Generator</h3>
+                        <p>Intelligent web application that generates recipes based on available ingredients</p>
+                        <div class="project-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">Web Dev</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <div class="project-date">May 2024</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-chart-line"></i> SIEM & Log Analysis</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">ELK Stack</span>
+                            <span class="skill-item">Microsoft Sentinel</span>
+                            <span class="skill-item">IBM QRadar</span>
+                            <span class="skill-item">Splunk</span>
+                            <span class="skill-item">Wazuh</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-bug"></i> Penetration Testing & VA</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Metasploit</span>
+                            <span class="skill-item">Nmap</span>
+                            <span class="skill-item">Burp Suite</span>
+                            <span class="skill-item">Nikto</span>
+                            <span class="skill-item">Hydra</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-network-wired"></i> Network Security & Threat Intel</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Wireshark</span>
+                            <span class="skill-item">TCP/IP</span>
+                            <span class="skill-item">IDS/IPS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programming</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-desktop"></i> OS & Tools</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Kali Linux</span>
+                            <span class="skill-item">Windows Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Certified SOC Analyst</h3>
+                        <p class="cert-issuer">EC-Council</p>
+                        <p class="cert-date">February 2025</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Certified IT and Cyber SOC Analyst</h3>
+                        <p class="cert-issuer">RedTeam Hacker Academy</p>
+                        <p class="cert-date">December 2024</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Python Essentials</h3>
+                        <p class="cert-issuer">Cisco Networking Academy</p>
+                        <p class="cert-date">January 2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:fbtharakan@gmail.com">fbtharakan@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:8281407052">8281407052</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/felix-b-tharakan-b55089212" target="_blank">Connect with me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
