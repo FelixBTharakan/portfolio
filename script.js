@@ -311,60 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
             typeWriter(heroTitle, originalText, 80);
         }, 500);
     }
-    
-    // Create additional floating particles
-    createFloatingParticles();
 });
-
-// Create floating particles animation
-function createFloatingParticles() {
-    const particlesContainer = document.querySelector('.floating-particles');
-    if (!particlesContainer) return;
-    
-    for (let i = 0; i < 20; i++) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.cssText = `
-            position: absolute;
-            width: 2px;
-            height: 2px;
-            background: #00ffff;
-            border-radius: 50%;
-            left: ${Math.random() * 100}%;
-            animation: particleFloat ${5 + Math.random() * 10}s linear infinite;
-            animation-delay: ${Math.random() * 5}s;
-            box-shadow: 0 0 6px #00ffff;
-        `;
-        particlesContainer.appendChild(particle);
-    }
-    
-    // Add particle float animation to CSS
-    if (!document.querySelector('#particle-styles')) {
-        const style = document.createElement('style');
-        style.id = 'particle-styles';
-        style.textContent = `
-            @keyframes particleFloat {
-                0% { 
-                    transform: translateY(100vh) translateX(0px) scale(0);
-                    opacity: 0;
-                }
-                10% {
-                    opacity: 1;
-                    transform: translateY(90vh) translateX(10px) scale(1);
-                }
-                90% {
-                    opacity: 1;
-                    transform: translateY(10vh) translateX(-10px) scale(1);
-                }
-                100% { 
-                    transform: translateY(-10vh) translateX(0px) scale(0);
-                    opacity: 0;
-                }
-            }
-        `;
-        document.head.appendChild(style);
-    }
-}
 
 // Add smooth reveal animation for stats
 function animateStats() {
