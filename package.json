@@ -1,0 +1,17 @@
+{
+  "name": "felix-portfolio",
+  "version": "1.0.0",
+  "description": "Felix B Tharakan - Cybersecurity Professional Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx vite --host",
+    "build": "npx vite build",
+    "preview": "npx vite preview"
+  },
+  "keywords": ["portfolio", "cybersecurity", "soc", "analyst"],
+  "author": "Felix B Tharakan",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
